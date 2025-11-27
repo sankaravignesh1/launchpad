@@ -3,21 +3,21 @@ const Index = () => {
   return <div className="min-h-screen bg-background font-inter">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
-        <div className="container mx-auto px-6 py-4 border-solid border-2 border-accent-foreground bg-popover">
+        <div className="container mx-auto px-6 py-4 border-solid border-accent-foreground bg-[#f5f1e6] border-0">
           <img alt="Tanozen - Bus Booking, Made Zen" className="h-10 md:h-12" src="/lovable-uploads/647d4cd6-9b54-4192-b0e3-f613c35fff56.png" />
         </div>
       </header>
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6 bg-[#f5f1e6]">
-        <div className="container mx-auto max-w-5xl text-center">
+        <div className="container mx-auto max-w-5xl text-center border-popover bg-[#f5f1e6]">
           <div className="mb-8 inline-block px-6 py-2 border rounded-full border-popover-foreground bg-popover-foreground">
             <p className="text-sm font-medium tracking-wide text-popover">​Launching Soon! </p>
           </div>
           
           <h1 className="md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight font-serif text-6xl text-black">Tanozen</h1>
           
-          <p className="font-playfair md:text-3xl lg:text-4xl text-foreground/70 mb-12 italic text-xl">
+          <p className="font-playfair md:text-3xl lg:text-4xl text-foreground/70 mb-12 italic text-xl bg-popover">
             Bus Booking, Made Zen
           </p>
 
@@ -31,7 +31,7 @@ const Index = () => {
           <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-8 text-center text-[#f5f1e6]">
             About Us
           </h2>
-          <p className="text-lg md:text-xl leading-relaxed text-center text-[#f5f1e6]">
+          <p className="text-lg md:text-xl leading-relaxed text-center text-popover">
             At Tanozen, we're reshaping bus booking with technology designed to make every journey clear, comfortable, and truly trustworthy.
           </p>
         </div>
