@@ -28,7 +28,7 @@ const Index = () => {
       {/* About Section */}
       <section className="py-20 px-6 bg-black">
         <div className="container mx-auto max-w-3xl text-popover">
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-8 text-center text-[#f5f1e6]">
+          <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-8 text-center text-popover">
             About Us
           </h2>
           <p className="text-lg md:text-xl leading-relaxed text-center text-popover">
