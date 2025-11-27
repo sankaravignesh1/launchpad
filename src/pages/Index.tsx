@@ -46,7 +46,7 @@ const Index = () => {
             <div className="flex items-start gap-4 justify-center">
               
               <div className="text-center">
-                <h3 className="text-foreground mb-2 font-extrabold text-xl text-center">Our Location</h3>
+                <h3 className="text-foreground mb-2 font-extrabold text-center text-2xl">Our Location</h3>
                 <p className="text-foreground/70 leading-relaxed text-center">
                   6/369, Sivanantham Nagar<br />
                   Sivakasi, Tamil Nadu<br />
