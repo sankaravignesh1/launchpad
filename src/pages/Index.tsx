@@ -40,16 +40,14 @@ const Index = () => {
       {/* Contact Section */}
       <section className="py-20 px-6 bg-[#f5f1e6]">
         <div className="container mx-auto max-w-3xl">
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-12 text-center text-black">
-            Get in Touch
-          </h2>
+          
           
           <div className="space-y-8">
             <div className="flex items-start gap-4 justify-center">
               
               <div className="text-center">
-                <h3 className="font-semibold text-foreground mb-2">Our Location</h3>
-                <p className="text-foreground/70 leading-relaxed">
+                <h3 className="text-foreground mb-2 font-extrabold text-xl text-center">Our Location</h3>
+                <p className="text-foreground/70 leading-relaxed text-center">
                   6/369, Sivanantham Nagar<br />
                   Sivakasi, Tamil Nadu<br />
                   India - 626123
@@ -60,10 +58,8 @@ const Index = () => {
             <div className="flex items-start gap-4 justify-center">
               
               <div className="text-center">
-                <h3 className="font-semibold text-foreground mb-2">Stay Updated</h3>
-                <p className="text-foreground/70">
-                  Be the first to know when we launch
-                </p>
+                
+                
               </div>
             </div>
           </div>
