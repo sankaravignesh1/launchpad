@@ -47,7 +47,7 @@ const Index = () => {
               
               <div className="text-center">
                 <h3 className="text-foreground mb-2 font-extrabold text-center text-2xl">Our Location</h3>
-                <p className="text-foreground/70 leading-relaxed text-center">
+                <p className="text-foreground/70 leading-relaxed text-center text-lg">
                   6/369, Sivanantham Nagar<br />
                   Sivakasi, Tamil Nadu<br />
                   India - 626123
