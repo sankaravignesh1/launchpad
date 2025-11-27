@@ -17,7 +17,7 @@ const Index = () => {
           
           <h1 className="md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight font-serif text-6xl text-black">Tanozen</h1>
           
-          <p className="font-playfair lg:text-4xl text-foreground/70 mb-12 italic text-xl bg-popover md:text-2xl">
+          <p className="font-playfair lg:text-4xl text-foreground/70 mb-12 italic text-xl bg-popover md:text-xl">
             Bus Booking, Made Zen
           </p>
 
