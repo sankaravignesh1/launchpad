@@ -3,7 +3,7 @@ const Index = () => {
   return <div className="min-h-screen bg-background font-inter">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
-        <div className="container mx-auto px-6 py-4 border-solid border-accent-foreground bg-[#f5f1e6] border-0">
+        <div className="container mx-auto px-6 py-4 border-solid border-accent-foreground border-0 bg-popover">
           <img alt="Tanozen - Bus Booking, Made Zen" className="h-10 md:h-12" src="/lovable-uploads/647d4cd6-9b54-4192-b0e3-f613c35fff56.png" />
         </div>
       </header>
