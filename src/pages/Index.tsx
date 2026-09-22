@@ -12,7 +12,7 @@ const Index = () => {
       <section className="pt-32 pb-20 px-6 bg-[#f5f1e6]">
         <div className="container mx-auto max-w-5xl text-center border-popover bg-[#f5f1e6]">
           <div className="mb-8 inline-block px-6 py-2 border rounded-full border-popover-foreground bg-popover-foreground">
-            <p className="text-sm font-medium tracking-wide text-popover">​Launching Soon! </p>
+            <p className="text-sm font-medium tracking-wide text-popover">​Launching this Pongal!</p>
           </div>
           
           <h1 className="md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight font-serif text-6xl text-black">Tanozen</h1>
