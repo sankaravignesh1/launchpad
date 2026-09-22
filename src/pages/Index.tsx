@@ -42,7 +42,7 @@ const Index = () => {
         <div className="container mx-auto max-w-3xl">
           
           
-          <div className="space-y-8">
+          <div className="grid gap-12 md:grid-cols-2 md:gap-8">
             <div className="flex items-start gap-4 justify-center">
               
               <div className="text-center">
@@ -58,8 +58,11 @@ const Index = () => {
             <div className="flex items-start gap-4 justify-center">
               
               <div className="text-center">
-                
-                
+                <h3 className="text-foreground mb-2 font-extrabold text-center text-2xl">Contact Details</h3>
+                <p className="text-foreground/70 leading-relaxed text-center text-lg">
+                  support@tanozen.com<br />
+                  +91 9894399116
+                </p>
               </div>
             </div>
           </div>
