@@ -31,7 +31,7 @@ const Index = () => {
           <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-8 text-center text-popover">
             About Us
           </h2>
-          <div className="space-y-6 text-lg md:text-xl leading-relaxed text-center text-popover">
+          <div className="space-y-6 text-base md:text-lg leading-relaxed text-justify text-popover">
             <p>
               Tanozen is built to hold many businesses, not one. Bus ticket booking is where we start because we can run it more efficiently, at a lower cost, using technology and practices most of the industry hasn't caught up to yet. We're not chasing hype. We're building what should already exist.
             </p>
