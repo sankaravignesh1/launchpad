@@ -1,4 +1,5 @@
 import tanozenLogo from "@/assets/tanozen-logo.png";
+import { Instagram } from "lucide-react";
 const Index = () => {
   return <div className="min-h-screen bg-background font-inter">
       {/* Header */}
@@ -76,10 +77,22 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-border bg-[sidebar-accent-foreground] bg-black">
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto flex items-center justify-between">
           <p className="text-sm text-[#f5f1e6]">
             © 2025 Tanozen. All rights reserved.
           </p>
+          <div className="text-right text-[#f5f1e6]">
+            <p className="mb-2 text-sm font-semibold">Follow us</p>
+            <a
+              href="https://www.instagram.com/tanozenindia?stkn=NTRxMTFzZnB1dG12"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow Tanozen on Instagram"
+              className="inline-flex"
+            >
+              <Instagram className="h-5 w-5" aria-hidden="true" />
+            </a>
+          </div>
         </div>
       </footer>
     </div>;
