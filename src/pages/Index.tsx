@@ -31,9 +31,14 @@ const Index = () => {
           <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-8 text-center text-popover">
             About Us
           </h2>
-          <p className="text-lg md:text-xl leading-relaxed text-center text-popover">
-            At Tanozen, we're reshaping bus booking with technology designed to make every journey clear, comfortable, and truly trustworthy.
-          </p>
+          <div className="space-y-6 text-lg md:text-xl leading-relaxed text-center text-popover">
+            <p>
+              Tanozen is built to hold many businesses, not one. Bus ticket booking is where we start because we can run it more efficiently, at a lower cost, using technology and practices most of the industry hasn't caught up to yet. We're not chasing hype. We're building what should already exist.
+            </p>
+            <p>
+              This is proof of what can come out of Tamil Nadu. We intend to bring more businesses back here and we're only getting started. We're a small group of young builders with no fixed roles and no patience for slow. Everyone in the team does whatever the problem needs, not whatever a job title allows. "That's just how it's done" isn't an answer we accept. Nothing here is impossible, it just hasn't been solved yet.
+            </p>
+          </div>
         </div>
       </section>
 
